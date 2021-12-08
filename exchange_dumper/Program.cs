@@ -14,7 +14,7 @@ namespace exchange_dumper
 {
     public class Program
     {
-        static string connectionString = $"datasource=127.0.0.1;port=3306;username=root;password=Nebulosa1337;database=cbr";
+        static string connectionString = $"datasource=127.0.0.1;port=3306;username={};password={};database=cbr";
         internal static void executeQuery(string query)
         {
             using (MySqlConnection con = new MySqlConnection(connectionString))
